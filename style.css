@@ -1,0 +1,72 @@
+body{
+   display: flex;
+   justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+.container{
+    position: absolute;
+    top: 15%;
+    width: 400px;
+    background: skyblue;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+::placeholder{
+    color:lightgray;
+    opacity: .8;
+    
+}
+.input{
+    margin-top: 15px;
+    height: 36px;
+    width: 300px;
+    font-family: cursive;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    border: none;
+    border-radius: 5px;
+    font-size:20px ;
+}
+
+.btn{
+    cursor: pointer;
+    border: none;
+    margin: 10px 30px;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    font-size: 15px;
+}
+
+.btn:active{
+    transform: translateY(5px) ;
+}
+.btn.submit:hover{
+    background: greenyellow;
+}
+.btn.clear:hover{
+    background:orangered;
+}
+
+
+.todo-container{
+position: relative;
+width: 350px;
+background: rgb(100, 168, 236);
+border-radius: 10px;
+margin: 10px 0;
+text-align: left;
+
+font-size: 20px;
+}
+.todo-container li{
+    padding: 15px;
+    font-family: cursive;
+}
+
